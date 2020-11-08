@@ -25,6 +25,7 @@ public void handle(@PathVariable String name, @PathVariable String version, @Pat
 8. 218：（2）获取请求处理器。（3）查找处理适配器 -> （2）查找请求处理器。（3）获取处理适配器
 9. 222：则直接返回状态码304，表示服务端为对此资源进行修改 -> 则直接返回状态码304，表示服务端未对此资源进行修改
 10. 41: 在项目中引入spring-boot-starter-freemarker依赖后，Spring Boot的自动配置机制就会生效，自动生成ThymeleafViewResolver到Spring MVC中 -> 在项目中引入spring-boot-starter-thymeleaf依赖后，Spring Boot的自动配置机制就会生效，自动生成ThymeleafViewResolver到Spring MVC中
+11. 49：类上@RequestMapping(method = RequestMethod.GET)，方法上@RequestMapping(path = "path1")：支持path1的GET和POST两种请求 -> 类上@RequestMapping(method = RequestMethod.GET)，方法上@RequestMapping(path = "path1")：支持path1的GET请求
 
 致谢：
 jiangnan520025：5、6、7、8、9
